@@ -50,5 +50,6 @@ for word, wordCount in sortedWordDict.items():
     print(word, "->", wordCount, end=" ") # print word and its word count in one line
     count+=1
 
+inputFile.close()
 
 
