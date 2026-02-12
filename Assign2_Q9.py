@@ -63,12 +63,3 @@ with open ("wiki_table.csv", mode="w") as file:
     writer=csv.writer(file)
     writer.writerow(headers)
     writer.writerows(dataTable)
-
-
-
-
-
-
-
-
-
