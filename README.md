@@ -8,6 +8,6 @@ Q4: Load the dataset into dataframe, filter the student has studenttime>=3, inte
 Q5: Load dataset into dataframe, classify the grade into 3 levels low, medium and high. Create a summary table showing number of students, average absences and percentage of students with internet access. Save a new table into a new csv file.
 Q6: Load dataset into dataframe, create a new column classify the risk level based on the rate of violent crime. Create a new summary table based on risk level that calculate the average value of unemployment rate in both group level.
 Q7: Extract the information from the webpage. Extract and print out the title of the website, Extract the first paragraph that has at least 50 characters, remove the whitespace. 
-Q8: Extract the <h2> section heading from main content. Remove heading "Reference, External links, See also, or Notes. Remove any Edit text from heading. Save heading in a new txt file per line.
+Q8: Extract the "<h2>" section heading from main content. Remove heading "Reference, External links, See also, or Notes. Remove any Edit text from heading. Save heading in a new txt file per line.
 Q9: Extract the first table from the link from the main content. Extract the header <th> tag of the table or create new for missing header columns. Handle missing the empty string in data column, rows. Save extracted table in a new file. 
 Q10: Define a function that read a file named sample-text.txt and print the number of matching lines and print out the 3 matching linses
