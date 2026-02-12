@@ -12,8 +12,8 @@ web_html=requests.get("https://en.wikipedia.org/wiki/Data_science", headers=head
 parsed_web_html=BeautifulSoup(web_html.text, "html5lib")
 
 # Extract the page title
-titlePage=parsed_web_html.find('title')# find the title with 'title' tag
-titlePage=titlePage.get_text() # remove html tag from the title
+titlePage=parsed_web_html.find('title')
+titlePage=titlePage.get_text()# find the title with 'title' tag
 
 print(f"Page title is {titlePage}") # display page title
 
@@ -30,4 +30,4 @@ for p in paragraph:
         firstParagraph=text
         break
 
-print(firstParagraph)
+print(firstParagraph) # display the valid first paragraph
