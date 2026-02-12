@@ -18,7 +18,6 @@ tables=content_div.find_all("table") # find table with table tag
 
 # Find the first table which has at least 3 data rows
 dataRows=[]
-firstTable=None
 
 for table in tables:
     rows=table.find_all("tr") # table rows (tr stands for table rows)
@@ -47,7 +46,7 @@ else: # create headers name if there is no existing headers
 dataTable=[]
 rowData=[]
 tableRows=firstTable.find_all("tr")
-for eachRow in tableRows:
+for eachRow in tableRows: #
     dataCells=eachRow.find_all("td")
     if not dataCells:
         continue
